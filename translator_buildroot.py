@@ -63,12 +63,36 @@ def disp_OLED(text, x_offset):
 # ------------------------------------------------------
 
 LANG_OPTIONS = [
+    ("Afrikaans", "af"),
+    ("Arabic", "ar"),
+    ("Chinese", "zh"),
+    ("Czech", "cs"),
+    ("Danish", "da"),
+    ("Dutch", "nl"),
     ("English", "en"),
-    ("Spanish", "es"),
+    ("Finnish", "fi"),
     ("French", "fr"),
     ("German", "de"),
-    ("Italian", "it")
+    ("Greek", "el"),
+    ("Hebrew", "he"),
+    ("Hindi", "hi"),
+    ("Hungarian", "hu"),
+    ("Italian", "it"),
+    ("Japanese", "ja"),
+    ("Korean", "ko"),
+    ("Norwegian", "no"),
+    ("Polish", "pl"),
+    ("Portuguese", "pt"),
+    ("Romanian", "ro"),
+    ("Russian", "ru"),
+    ("Spanish", "es"),
+    ("Swedish", "sv"),
+    ("Thai", "th"),
+    ("Turkish", "tr"),
+    ("Ukrainian", "uk"),
+    ("Vietnamese", "vi")
 ]
+
 
 current_lang = 0
 
